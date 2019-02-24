@@ -671,6 +671,10 @@ input[type="text"]:focus {
   font-style: normal;
   font-size: 32pt;
 }
+.form-email-btn2:active {
+  background-color: #e0aba5;
+}
+
 @media (max-width: 850px) {
   .form-email {
     display: inline-flex;
