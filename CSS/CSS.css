@@ -151,6 +151,10 @@ h3 {
   border: none;
   height: 25px;
 }
+input[type="text"]:focus {
+  outline: none;
+  border-bottom: 1px solid #000000
+}
 .search-mobil {
   background: url(../images/magnifying-glass.png) no-repeat left;
   background-size: 14%;
@@ -649,6 +653,12 @@ h3 {
   font-style: normal;
   font-size: 12pt;
 }
+.form-email-btn:active {
+  background-color: #e0aba5;
+}
+.form-email-btn:hover {
+  background-color: #e0aba5;
+}
 .form-email-btn2 {
   width: 73px;
   height: 53px;
@@ -736,6 +746,35 @@ h3 {
 }
 .social > li {
   list-style-type: none;
+}
+.soc {
+  display: flex;
+  justify-content: space-around;
+}
+.fb, .vk, .ig {
+  width: 21%;
+  cursor: pointer;
+}
+.fb {
+  background: url(../images/facebook.png) no-repeat;
+  
+}
+.fb:hover {
+  background: url(../images/facebook-hover.png) no-repeat;
+}
+.vk {
+  background: url(../images/vk.png) no-repeat;
+  width: 21%;
+}
+.vk:hover {
+  background: url(../images/vk-hover.png) no-repeat;
+}
+.ig {
+  background: url(../images/instagram.png) no-repeat;
+ 
+}
+.ig:hover {
+  background: url(../images/instagram-hover.png) no-repeat;
 }
 @media (max-width: 1240px) {
   .footer-down {
